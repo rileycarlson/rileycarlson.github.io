@@ -1,0 +1,45 @@
+/* =================== PAGE ========================*/
+body {
+    background-color: white;
+    padding-top: 60px;
+    z-index: -2;
+    position: relative;
+}
+#content {
+    width: 640px;
+    margin: 0 auto;
+    background-image: url("../Images/witewall_3.png");
+    z-index: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #111;
+}
+.navbar {
+  background-color: #4CAF50;
+}
+
+.active {
+  background-color: #4CAF50;
+}
