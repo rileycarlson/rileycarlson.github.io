@@ -94,9 +94,9 @@ h5, h6 {
 }
 
 .main-content {
-    /*background-color: #f3f3f3;*/
     background-color: #4CAF50;
     margin-bottom: 3em;
+    padding-bottom: 1em;
 }
 
 footer {
@@ -127,10 +127,11 @@ footer {
 /*body div*/
 .contentDiv {
     display: inline-block;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: white;
     margin: 0.75em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     max-width: 650px;
     width: 650px;
     margin-left: calc((100% - 680px) / 2);
@@ -199,6 +200,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: forestgreen;
+    user-select: none;
 }
 
 .navbar li {
