@@ -152,9 +152,8 @@ footer {
     .featured .content-wrapper {
         background-color: forestgreen;
         color: #3e5667;
-        padding-top: 0.75em;
-        padding-left: 0.75em;
-        padding-right: 0.75em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 
     .featured hgroup.title h1, .featured hgroup.title h2 {
@@ -225,8 +224,8 @@ body {
     background-color: #4CAF50;
 }
 
-.active {
-    background-color: #4CAF50;
+.navbar li a.active {
+    background-color: darkgreen;
 }
 
 
