@@ -94,7 +94,7 @@ h5, h6 {
 }
 
 .main-content {
-    background-color: #4CAF50;
+    background-color: lightgreen;
     margin-bottom: 3em;
     padding-bottom: 1em;
 }
@@ -127,14 +127,14 @@ footer {
 /*body div*/
 .contentDiv {
     display: inline-block;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: white;
     margin: 0.75em;
     padding-bottom: 2em;
     max-width: 650px;
     width: 650px;
-    margin-left: calc((100% - 680px) / 2);
+    margin-left: calc((100% - 710px) / 2);
     font-size: 1.125rem;
     line-height: 1.5625rem;
 }
@@ -200,6 +200,7 @@ body {
     overflow: hidden;
     background-color: forestgreen;
     user-select: none;
+    margin-left: 1em;
 }
 
 .navbar li {
@@ -219,10 +220,6 @@ body {
         .navbar li a:hover:not(.active) {
             background-color: green;
         }
-
-.navbar {
-    background-color: #4CAF50;
-}
 
 .navbar li a.active {
     background-color: darkgreen;
