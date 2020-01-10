@@ -110,10 +110,6 @@ h5, h6 {
 .featured + .main-content {
 }
 
-header .content-wrapper {
-    padding-top: 20px;
-}
-
 footer {
     clear: both;
     background-color: #e2e2e2;
@@ -142,11 +138,15 @@ footer {
 /*body div*/
 .contentDiv {
     display: inline-block;
-    padding: 1em;
-    background-color: #f3f3f3;
+    padding: 15px;
+    background-color: white;
     margin: 0.75em;
     padding-bottom: 3em;
-    width: 95%;
+    max-width: 580px;
+    width: 580px;
+    margin-left: calc((100% - 610px) / 2);
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
 }
 
     .contentDiv th {
@@ -157,7 +157,6 @@ footer {
 ----------------------------------------------------------*/
 /* featured */
 .featured {
-    background-color: #fff;
 }
 
     .featured .content-wrapper {
@@ -190,88 +189,10 @@ article {
 }
 
 
-/********************
-*   Mobile Styles   *
-********************/
-@media only screen and (max-width: 850px) {
-
-    /* header
-            ----------------------------------------------------------*/
-    header .float-left, header .float-right {
-        float: none;
-    }
-
-    /* logo */
-    header .site-title {
-        margin: 10px;
-        text-align: center;
-    }
-
-    /* menu */
-    nav {
-        margin-bottom: 5px;
-    }
-
-
-    /* main layout
-            ----------------------------------------------------------*/
-    .main-content, .featured + .main-content {
-        background-position: 10px 0;
-    }
-
-    .content-wrapper {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .featured .content-wrapper {
-        padding: 10px;
-    }
-
-    /* page content */
-    article, aside {
-        float: none;
-        width: 100%;
-    }
-
-
-    /* features */
-    section.feature {
-        float: none;
-        padding: 10px;
-        width: auto;
-    }
-
-        section.feature img {
-            color: #999;
-            content: attr(alt);
-            font-size: 1.5em;
-            font-weight: 600;
-        }
-
-
-    /* footer
-            ----------------------------------------------------------*/
-    footer .float-left, footer .float-right {
-        float: none;
-    }
-
-    footer {
-        text-align: center;
-        height: auto;
-        padding: 10px 0;
-    }
-
-        footer p {
-            margin: 0;
-        }
-}
-
-
 
 /* =================== PAGE ========================*/
 body {
-    background-color: white;
+    background-color: whitesmoke;
     padding-top: 1em;
     z-index: -2;
     position: relative;
@@ -301,6 +222,7 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-size: 1.2rem;
     }
 
         /* Change the link color to #111 (black) on hover */
@@ -315,3 +237,86 @@ body {
 .active {
     background-color: #4CAF50;
 }
+
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+
+    /* header
+            ----------------------------------------------------------*/
+    header .float-left, header .float-right {
+        float: none;
+    }
+
+    /* logo */
+    header .site-title {
+        margin: 10px;
+        text-align: center;
+    }
+
+    /* menu */
+    nav {
+    }
+
+
+    /* main layout
+            ----------------------------------------------------------*/
+    .main-content, .featured + .main-content {
+        background-position: 10px 0;
+    }
+
+    .content-wrapper {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .featured .content-wrapper {
+    }
+
+    /* page content */
+    article, aside {
+        float: none;
+        width: 100%;
+    }
+
+
+    /* features */
+    section.feature {
+        float: none;
+        padding: 10px;
+        width: auto;
+    }
+
+        section.feature img {
+            color: #999;
+            content: attr(alt);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+    .contentDiv {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 70px);
+    }
+
+
+    /* footer
+            ----------------------------------------------------------*/
+    footer .float-left, footer .float-right {
+        float: none;
+    }
+
+    footer {
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+        footer p {
+            margin: 0;
+        }
+}
+
