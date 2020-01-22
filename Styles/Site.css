@@ -1,6 +1,5 @@
 
 html {
-    background-color: #e2e2e2;
     margin: 0;
     padding: 0;
 }
@@ -101,7 +100,6 @@ h5, h6 {
 
 footer {
     clear: both;
-    background-color: #e2e2e2;
     font-size: .8em;
     height: 100px;
 }
@@ -137,6 +135,7 @@ footer {
     margin-left: calc((100% - 710px) / 2);
     font-size: 1.125rem;
     line-height: 1.5625rem;
+    min-height: 300px;
 }
 
     .contentDiv th {
