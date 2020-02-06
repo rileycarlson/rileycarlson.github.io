@@ -6,7 +6,6 @@ html {
 
 body {
     background-color: #fff;
-    border-top: solid 10px #4b4b4b;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -93,7 +92,7 @@ h5, h6 {
 }
 
 .main-content {
-    background-color: darkseagreen;
+    background-color: slateblue;
     margin-bottom: 3em;
     padding-bottom: 1em;
 }
@@ -108,16 +107,17 @@ footer {
 /* site title
 ----------------------------------------------------------*/
 .site-title {
-    color: #5a5a5a;
+    color: darkorange;
     font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
     font-size: 2.3em;
     margin: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
+    text-shadow: 0px 0px 2px orangered, 0px 0px 20px gold;
 }
 
     .site-title a, .site-title a:hover, .site-title a:active {
         background: none;
-        color: #5a5a5a;
+        color: darkorange;
         outline: none;
         text-decoration: none;
     }
@@ -128,7 +128,7 @@ footer {
     padding-left: 30px;
     padding-right: 30px;
     background-color: white;
-    margin: 0.75em;
+    margin: 0.5em;
     padding-bottom: 2em;
     max-width: 650px;
     width: 650px;
@@ -149,7 +149,7 @@ footer {
 }
 
     .featured .content-wrapper {
-        background-color: forestgreen;
+        background-color: darkslateblue;
         color: #3e5667;
         padding-left: 0.5em;
         padding-right: 0.5em;
@@ -180,7 +180,7 @@ article {
 
 /* =================== PAGE ========================*/
 body {
-    background-color: whitesmoke;
+    background-color: midnightblue;
     padding-top: 1em;
     z-index: -2;
     position: relative;
@@ -197,7 +197,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: forestgreen;
+    background-color: darkslateblue;
     user-select: none;
     margin-left: 1em;
 }
@@ -208,7 +208,7 @@ body {
 
     .navbar li a {
         display: block;
-        color: white;
+        color: gold;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -217,12 +217,13 @@ body {
 
         /* Change the link color to #111 (black) on hover */
         .navbar li a:hover:not(.active) {
-            background-color: green;
+            text-shadow: 0px 0px 2px orangered, 0px 0px 10px gold;
         }
 
-.navbar li a.active {
-    background-color: darkgreen;
-}
+        .navbar li a.active {
+            color: gold;
+            text-shadow: 0px 0px 2px orangered, 0px 0px 20px gold;
+        }
 
 
 /********************
@@ -274,9 +275,9 @@ body {
         }
 
     .contentDiv {
-        margin-left: 10px;
-        margin-right: 10px;
-        width: calc(100% - 80px);
+        margin-left: 5px;
+        margin-right: 5px;
+        width: calc(100% - 70px);
     }
 
 
