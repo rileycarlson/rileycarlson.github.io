@@ -21,6 +21,10 @@ a {
     text-decoration: underline;
 }
 
+img {
+    width: 100%;
+}
+
 header, footer, hgroup, nav, section {
     display: block;
 }
@@ -145,8 +149,6 @@ footer {
 /* page elements
 ----------------------------------------------------------*/
 /* featured */
-.featured {
-}
 
     .featured .content-wrapper {
         background-color: darkslateblue;
